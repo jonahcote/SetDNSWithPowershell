@@ -1,3 +1,6 @@
+<#
+.DESCRIPTION A PowerShell script that searches through network adapters, and sets the Wi-Fi and Ethernet DNS to 1.1.1.1 (CloudFlare) and 8.8.8.8 (Google)
+#>
 # Define the DNS server addresses
 $primaryDNS = "1.1.1.1"
 $secondaryDNS = "8.8.8.8"
