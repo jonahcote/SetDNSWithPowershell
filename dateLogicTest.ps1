@@ -1,0 +1,1 @@
+!((Get-Date).Date -eq (Get-Date "13 September, 2023").Date)
